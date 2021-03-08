@@ -1,0 +1,79 @@
+@charset "utf-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+/* green: #428a66
+  orange: #ffab69
+	blue: #004d99
+	pink: #f4d7f4
+*/
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+ h1, h2, h3, h6, a {
+	font-family: 'Potta One', cursive;
+}
+/* start logo */
+.logo {
+	background: #f4d7f4;
+}
+.logo img {
+	width: 468px; 
+	height: 150px;
+}
+/* end logo */
+
+/* start nav */
+.nav {
+	background: #f4d7f4;
+}
+.nav-link {
+	color:#004d99;
+}
+.nav-link:hover {
+	color: white;
+}
+.navbar-toggler-icon {
+	background-image: url("../images/menu-toggle.png")
+}
+/* end nav */
+
+/* start orange */
+.products {
+	margin: auto;
+	text-align: center;
+}
+.color-or {
+	color: #ffab69;
+	margin-top: 20px;
+}
+/* end orange */
+
+/* start green */
+.content-shop {
+	background-color: #428a66;
+}
+.wsw {
+	padding: 100px;
+	color: white;
+}
+.wsw p {
+	text-align: justify;
+}
+.wsw h2 {
+	text-align: center;
+}
+.encourage {
+	padding: 100px;
+}
+/* end green */
+
+/* start pop up */
+/* end pop up */
+
+#footer	{
+    color: #f4d7f4;
+    background-color: #004d99;
+    text-align: center;
+    width: auto;
+    height: 1cm;
+    padding: 2mm 0mm 0mm 0mm;
+}
