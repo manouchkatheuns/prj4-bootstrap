@@ -6,8 +6,9 @@ body {
 h1 {
 	font-family: 'Potta One', cursive;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 	color: #004d99;
+	font-size: xx-large;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -15,7 +16,7 @@ h1 {
   position: center;
   width: 1000px;
   height: 600px;
-  margin: 30px 200px;
+  margin: 10px 200px;
 }
 
 /* Add some content at the bottom of the video/page */

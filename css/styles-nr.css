@@ -16,13 +16,13 @@ body {
 	background: #ffab69;
 	color: #004d99;
 	text-align: center;
-	margin: 30px 200px;
-
+	margin: auto;
 }
 .btn{
-	color: #004d99;
+	color: #ffab69;
+	background: #004d99;
 }
 .gif {
 	width: 480px;
-	height: 480px;
+	height: 400px;
 }
