@@ -7,7 +7,16 @@
 */
 body {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background: #004d99;
 }
  h1, h2, h3, h6, a {
 	font-family: 'Potta One', cursive;
+}
+.jt {
+	background: #004d99;
+	color: #f4d7f4;
+	text-align: center;
+}
+.btn{
+	color: #f4d7f4;
 }
