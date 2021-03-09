@@ -71,6 +71,11 @@ body {
 	width: 100px;
 	height: 100px;
 }
+.color-bl {
+	color: #004d99;
+	margin: 20px 0px;
+	text-align: center;
+}
 /* end social */
 
 #footer	{
@@ -78,6 +83,6 @@ body {
     background-color: #004d99;
     text-align: center;
     width: auto;
-    height: 1cm;
+    height: 1.5cm;
     padding: 2mm 0mm 0mm 0mm;
 }
