@@ -1,0 +1,13 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+/* green: #428a66
+  orange: #ffab69
+	blue: #004d99
+	pink: #f4d7f4
+*/
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+ h1, h2, h3, h6, a {
+	font-family: 'Potta One', cursive;
+}
