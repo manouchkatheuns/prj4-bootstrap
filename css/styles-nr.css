@@ -14,13 +14,16 @@ body {
 }
 .jt {
 	background: #ffab69;
-	color: #004d99;
+	color: #428a66;
 	text-align: center;
 	margin: auto;
 }
 .btn{
 	color: #ffab69;
-	background: #004d99;
+	background: #428a66;
+}
+.btn:hover {
+	background: #1ca35f;
 }
 .gif {
 	width: 480px;

@@ -14,11 +14,10 @@ h1 {
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: center;
-  width: 1000px;
-  height: 600px;
-  margin: 10px 200px;
+  width: 73%;
+  height: auto;
+  margin-left: 200px;
 }
-
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
