@@ -83,6 +83,8 @@ body {
     background-color: #004d99;
     text-align: center;
     width: auto;
-    height: 1.5cm;
-    padding: 2mm 0mm 0mm 0mm;
+    height: 2cm;
+	margin-top: 170px;
+	margin-bottom: auto;
+    padding: 7.5mm 0mm 0mm 0mm;
 }
