@@ -66,10 +66,14 @@ body {
 /*flip box end*/
 
 /*options start*/
+.color-grt {
+  color: #428a66;
+  text-align: center;
+}
 .color-gr {
   color: #428a66;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 button {
 	color: #ffab69;
