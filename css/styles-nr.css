@@ -12,11 +12,125 @@ body {
  h1, h2, h3, h6, a {
 	font-family: 'Potta One', cursive;
 }
+/*flip box start*/
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 600px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #428a66;
+  color: #ffab69;
+}
+.flip-box-front h2 {
+	padding-top: 250px;
+}
+/* Style the back side */
+.flip-box-back {
+  background-color: #428a66;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box-back h2 {
+	padding-top: 10px;
+}
+/*flip box end*/
+
+/*options start*/
+.color-gr {
+  color: #428a66;
+  text-align: center;
+  margin-bottom: 50px;
+}
+button {
+	color: #ffab69;
+	background: #428a66;
+	padding: 4px;
+	border-style: solid;
+	border-color: #346e51;
+	border-width: medium;
+}
+button:hover {
+	background: #1ca35f;
+	color: white;
+}
+#myVideo1 {
+  position: center;
+  width: 90%;
+  height: auto;	
+}
+#myDIV1 {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #428a66;
+  margin-top: 20px;
+}
+#myVideo2 {
+  position: center;
+  width: 90%;
+  height: auto;	
+}
+#myDIV2 {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #428a66;
+  margin-top: 20px;
+}
+#myVideo3 {
+  position: center;
+  width: 90%;
+  height: auto;	
+}
+#myDIV3 {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #428a66;
+  margin-top: 20px;
+}
+/*options end*/
+
+/*jumbotron start*/
 .jt {
 	background: #ffab69;
 	color: #428a66;
 	text-align: center;
 	margin: auto;
+}
+.jt h3 {
+	font-size: x-large;
+	
 }
 .btn{
 	color: #ffab69;
@@ -28,4 +142,5 @@ body {
 .gif {
 	width: 480px;
 	height: 400px;
+/*jumbotron end*/
 }
