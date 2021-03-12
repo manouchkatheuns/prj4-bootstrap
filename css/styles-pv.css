@@ -1,15 +1,49 @@
-@charset "UTF-8";
+charset "UTF-8";
 * { margin: 0; padding: 0; border: 0; font-size: 100%; }
+/* green: #428a66
+  orange: #ffab69
+  blue: #004d99
+  pink: #f4d7f4
+*/
 body {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	background-color: #f4d7f4;
 }
-h1 {
+h1, h6, a {
 	font-family: 'Potta One', cursive;
+}
+h1 {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	color: #004d99;
 	font-size: xx-large;
 }
+/* start logo */
+.logo {
+  background: #004d99;
+}
+.logo img {
+  width: 468px; 
+  height: 150px;
+  text-align: center;
+
+}
+/* end logo */
+
+/* start nav */
+.nav {
+  background: #004d99;
+}
+.nav-link {
+  color:#f4d7f4;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("../images/menu-toggle.png")
+}
+/* end nav */
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -41,4 +75,14 @@ h1 {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
+#footer {
+  color: #f4d7f4;
+  background-color: #004d99;
+  text-align: center;
+  width: auto;
+  height: 2cm;
+  margin-top: 70px;
+  margin-bottom: auto;
+  padding: 7.5mm 0mm 0mm 0mm;
 }
